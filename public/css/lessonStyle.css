@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  /* display: flex; */
+  /* padding: 0 10px; */
+  align-items: center;
+  justify-content: center;
+  background: #1C242F;
+}
+
+header{
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* border: 1px solid; */
+}
+.header{
+  display: flex;
+  box-sizing: border-box;
+  width: 70%;
+  height: 10vh;
+  margin: auto;
+  background-color: #262E3B;
+  /* border: 1px solid green; */
+}
+.logo{
+  display: flex;
+  /* width: 90%; */
+  /* margin: auto; */
+  padding: 0 0 0 2em;
+  padding-left: 2em;
+  padding-right: .8em;
+  /* border: 1px solid yellow; */
+}
+.logo svg {
+  width: 2em;
+  height: 2em;
+  fill: white;
+  margin: auto;
+}
+.logo a{
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* .menu {
+  margin: auto;
+  align-self: left;
+} */
+header a svg{
+  display: flex;
+}
+ul button svg{
+  width: 1.5em;
+  height: 1.5em;
+  /* border: 1px solid white; */
+  margin: auto;
+}
+
+header .a{
+  /* border:  1px solid yellow; */
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  margin: 0 .8em;
+  background-color: #cf8fe3;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+header .b{
+  /* border:  1px solid yellow; */
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  margin: 0 .8em;
+  background-color: #9ed0ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .c{
+  /* border:  1px solid yellow; */
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  margin: 0 .8em;
+  background-color: #f2a2e4;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+header ul{
+  display: flex;
+  /* border: solid 1px white; */
+  /* display: block; */
+  height: 100%;
+}
+
+header ul li{
+  display: inline;
+  list-style: none;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+.wrapper{
+    margin: auto;
+    width: 70%;
+    /* height: 90vh; */
+    height: 100%;
+    padding: 35px;
+    background: #262E3B;
+    color: white;
+    box-sizing:border-box;
+    padding-top: 6em;
+  }
+  .gridcard{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* border: 1px solid white; */
+    height: 50%;
+    width: 100%;
+  }
+  .card{
+    display: flex;
+  }
+  .card a{
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 15em;
+    height: 3em;
+    background-color: cadetblue;
+    margin: 1em;
+    padding-top:.8em;
+    border-radius: 1em;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
